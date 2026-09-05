@@ -1,0 +1,39 @@
+# Dependencies and generated frontend output
+node_modules/
+Frontend/dist/
+Frontend/dist-ssr/
+Frontend/.vite/
+build/
+dist/
+.cache/
+cache/
+*.cache
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+credentials*.json
+secrets*.json
+*secret*
+*credential*
+*password*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archives should be kept outside the repository history
+*.zip
